@@ -2,4 +2,4 @@
 
 set -eu
 export GIT_PR_RELEASE_TOKEN=$GITHUB_TOKEN
-git-pr-release
+git-pr-release $GIT_PR_RELEASE_ARGS
